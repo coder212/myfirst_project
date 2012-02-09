@@ -150,14 +150,14 @@ function arccotanh(form){
 var derajat= form.display.value * Math.PI/180
 form.display.value = Math.acotanh(derajat)}
 function akar(form) {
-form.layar.value = Math.sqrt(form.layar.value);
+form.display.value = Math.sqrt(form.display.value);
 }
 function logaritma(form) {
-form.layar.value = Math.log(form.layar.value);}
+form.display.value = Math.log(form.display.value);}
 function exponensial(form) {
-form.layar.value = Math.exp(form.layar.value);}
+form.display.value = Math.exp(form.display.value);}
 function akar(form) {
-form.layar.value = Math.sqrt(form.layar.value);}
+form.display.value = Math.sqrt(form.display.value);}
 function hapuschar(input) {
 input.value = input.value.substring(0, input.value.length - 1)
 }
@@ -168,10 +168,10 @@ else
 input.value = "-" + input.value
 }
 function hitung(form) {
-form.layar.value = eval(form.layar.value)}
+form.display.value = eval(form.display.value)}
 function kuadrat(form) {
-form.layar.value = eval(form.layar.value) *
-eval(form.layar.value)}
+form.layar.value = eval(form.display.value) *
+eval(form.display.value)}
 function cekAngka(str) {
 for (var i = 0; i < str.length; i++) {
 var ch = str.substring(i, i+1)
